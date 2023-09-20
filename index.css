@@ -1,3 +1,95 @@
-.contenidor1{
-    margin-right: 50px;
+.contenedor1 {
+    text-align: center;
+    padding: 10px;
 }
+
+.contenedor1 button {
+    margin: 10px;
+}
+
+.contenedor1 a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+ 
+
+.contenedor2 p{
+    background-color: rgb(164, 164, 164);
+    border-radius: 4px;
+    margin: 10px;
+}
+.contenedor2 t1, t2{
+    padding: 7px;
+    display: block;
+}
+
+.contenedor3 p{
+    background-color: rgb(164, 164, 164);
+    border-radius: 4px;
+    margin: 10px;
+}
+
+.contenedor3 t1, t2{
+    padding: 7px;
+    display: block;
+}
+
+.contenedor4 t1, t2{
+    padding: 7px;
+    display: block;
+}
+
+.contenedor5 t1, t2{
+    padding: 7px;
+    display: block;
+}
+
+
+
+/*Centrar contenedores*/
+
+#segundocontenedor, #primercontenedor {
+    float: left;
+    width: 45%; /* Esto divide la pantalla en dos columnas iguales */
+    border-bottom: 1px solid #000;
+    
+    
+}
+
+/*Poner el bording*/
+
+#primercontenedor {
+    border-right: 1px solid #000000;
+    width: 70%;
+    padding: 6px;
+    
+}
+
+#segundocontenedor {
+   
+    width: 28%;
+    
+}
+
+/*poner el footer*/
+
+footer{
+    text-align: center;
+}
+
+
+/*Favicon*/
+
+link[rel="icon"] {
+    width: 82px; 
+    height: 82px; 
+}
+
+
+
+
+
+
